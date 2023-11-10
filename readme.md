@@ -17,12 +17,12 @@ Each person should put an 'X' under their name on the days they have meetings.
 
 ### December 2023
 
-| Date        | Student 1 | Student 2 | Student 3 |
-|-------------|-----------|-----------|-----------|
-| Nov 29 (Wed)|           |           |           |
-| Dec 3 (Sun) |           |           |           |
-| Dec 6 (Wed) |           |           |           |
-| Dec 10 (Sun)|           |           |           |
-| Dec 13 (Wed)|           |           |           |
+| Date        | Bianco    | Viviana   | 
+|-------------|-----------|-----------|
+| Nov 29 (Wed)|           |           |           
+| Dec 3 (Sun) |           |           |           
+| Dec 6 (Wed) |           |           |           
+| Dec 10 (Sun)|           |           |           
+| Dec 13 (Wed)|           |           |           
 
 
