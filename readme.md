@@ -8,7 +8,7 @@ Each person should put an 'X' under their name on the days they have meetings.
 
 | Date        | Bianco    | Viviana   | 
 |-------------|-----------|-----------|
-| Nov 9 (Thr) |           |     x     |           
+| Nov 9 (Thr) |     x     |     x     |           
 | Nov 12 (Sun)|           |           |           
 | Nov 15 (Wed)|           |           |           
 | Nov 19 (Sun)|           |           |           
