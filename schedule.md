@@ -9,7 +9,7 @@ Each person should put an 'X' under their name on the days they have meetings.
 | Nov 9 (Thr) |     x     |     x     |           
 | Nov 11 (Sat)|     x     |     x     |           
 | Nov 14 (Tue)|     x     |     x     |           
-| Nov 20 (Sun)|     x     |           |           
+| Nov 20 (Sun)|     x     |     x     |           
 | *Nov 22 (Wed)* |       |           |           |  <!-- Skipped for Thanksgiving -->
 | *Nov 24 (Fri)* |       |           |           |  <!-- Skipped for Thanksgiving -->
 
