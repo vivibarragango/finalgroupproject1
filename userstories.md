@@ -71,6 +71,8 @@ Result: Jeff notes down the event and can join via online or in-person.
 
 Brand Identity Epic:
 
+User Story 1
+
 Iris is intrigued about the Café Casero ViBi and wants to learn more about the coffee company’s mission statement.
 
 Action: Iris clicks on the hyperlink titled “About Us”, this will open a page showcasing partnerships we have done and our company’s mission statement and values.
