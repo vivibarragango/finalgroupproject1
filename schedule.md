@@ -6,12 +6,9 @@ Each person should put an 'X' under their name on the days they have meetings.
 
 | Date        | Bianco    | Viviana   | 
 |-------------|-----------|-----------|
-| Nov 9 (Thr) |     x     |     x     |           
-<<<<<<< HEAD
+| Nov 9 (Thr) |     x     |     x     | 
 | Nov 11 (Sat)|     x     |     x     |           
-=======
 | Nov 11 (Sun)|     x     |     x     |           
->>>>>>> 82e583b (fixing local repo)
 | Nov 14 (Tue)|     x     |     x     |           
 | Nov 20 (Sun)|     x     |     x     |           
 | Nov 22 (Wed)|           |           |          
