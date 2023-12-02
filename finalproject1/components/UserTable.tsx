@@ -3,6 +3,7 @@ import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@
 
 export default function UserTable() {
   return (
+    
     <Table hideHeader removeWrapper aria-label="Example static collection table">
       <TableHeader>
         <TableColumn>NAME</TableColumn>

@@ -6,6 +6,7 @@ import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import clsx from "clsx";
 import UserTable from "@/components/UserTable";
+import InputF from "@/components/InputF";
 
 
 export const metadata: Metadata = {
@@ -47,6 +48,7 @@ export default function RootLayout({
 						</main>
 						<footer className="w-full flex items-center justify-center py-3">
 							<UserTable />
+							<InputF />
 						</footer>
 					</div>
 				</Providers>
