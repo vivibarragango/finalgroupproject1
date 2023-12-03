@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.font-head{
+    font-family: 'Lucida Handwriting';
+}
+
+.font-column{
+    font-family: 'Crimson Text';
+}
