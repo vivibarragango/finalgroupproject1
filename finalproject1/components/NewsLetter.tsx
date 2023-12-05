@@ -1,77 +1,53 @@
-import { ChangeEvent, FormEvent, useState } from "react";
+'use client'
 import {Input} from "@nextui-org/react";
-import { Button, Center, Container, Flex, Heading, Input, Text, useToast } from "@chakra-ui/react";
-import Image from "next/image";
-​
-export default function Home() {
-const [emailInput, setEmailInput] = useState('');
-const [buttonLoading, setButtonLoading] = useState(false);
-const toast = useToast();
-​
-const handleFormSubmit = async (e: FormEvent<HTMLFormElement>) => {
+import {Button} from "@nextui-org/react";
+import React, { useRef, useState } from 'react';
+
+export default function NewsLetter() {
+  // 1. Create a reference to the input so we can fetch/clear it's value.
+  const inputEl = useRef(null);
+  // 2. Hold a message in state to handle the response from our API.
+  const [message, setMessage] = useState('');
+
+  const subscribe = async (e) => {
     e.preventDefault();
-    if (!emailInput) {
-      return toast({
-        description: 'Email is required',
-        status: 'error'
-      });
+
+    // 3. Send a request to our API with the user's email address.
+    const res = await fetch('/api/subscribe', {
+      body: JSON.stringify({
+        email: inputEl.current.value,
+      }),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      method: 'POST',
+    });
+
+    const { error } = res.json();
+
+    if (error) {
+      // 4. If there was an error, update the message in state.
+      setMessage(error);
+
+      return;
     }
-​
-    setButtonLoading(true);
-    try {
-       const res = await fetch('/api/subscribe', { method: 'POST', body: JSON.stringify({ email: emailInput }) });
-       const data = await res.json();
-​
-       if (data.success) {
-         toast({
-          title: 'Joined successfully.',
-          description: "Thank you for joining the waitlist!",
-          status: 'success'          
-        });
-       } else {
-          throw new Error(data?.error || 'Something went wrong, please try again later');
-       }
-​
-    } catch(e) {
-       toast({
-         description: (e as Error).message,
-         status: 'error'               
-       });
-    }
-​
-    setEmailInput('');    
-    setButtonLoading(false);
-};
-​
-return (
-    <Center>
-    <Flex gap='50px' justifyContent='space-between' alignItems='center' flexDir={['column', null, 'row']} maxW='1200px' m='50px 0'>
-      <Container>
-        <Heading fontSize={['4xl', null, null, '5xl']} mb='20px'>Be the first to know when we launch</Heading>
-        <Text color='gray.600' fontSize='18px' mb='30px'>
-          We are still building. Subscribe for updates and 20% off when
-          we launch. No spam, we promise!
-        </Text>
-        <form onSubmit={handleFormSubmit}>
-          <Flex gap='15px'>
-            <Input
-              type='email'
-              placeholder="Enter your email..."
-              value={emailInput}
-              onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                setEmailInput(e.target.value)}
-            />
-            <Button isLoading={buttonLoading} type='submit' bg='purple.500' color='white' _hover={{ bg: 'purple.600' }} _active={{ bg: 'purple.700' }}>
-              Subscribe
-            </Button>
-          </Flex>
-          <Text color='gray.500' as='small'>Join our pre-launch waitlist!</Text>
-        </form>
-      </Container>
-      <Container display='flex' justifyContent='center'>
-        <Image src={'/hero-image.png'} alt='app mockup' width={470} height={470} />
-      </Container>
-    </Flex>
-  </Center>
-);
+
+    // 5. Clear the input value and show a success message.
+    inputEl.current.value = '';
+    setMessage('Success! 🎉 You are now subscribed to the newsletter.');
+  };
+
+  return (
+    <form onSubmit={subscribe}>
+      <div className="flex w-full flex-wrap md:flex-nowrap flex-col gap-4" >
+        <p className="mb-2 font-head">Subscribe to our Newsletter</p>
+        <Input ref={inputEl} type="email" label="Email" placeholder="Enter your email" />
+      </div>
+
+      <Button type='submit' color='primary'>
+        Subscribe
+      </Button>
+      <div className="text-green-500 mt-2">{message}</div>
+    </form>
+  );
 }
