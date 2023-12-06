@@ -16,7 +16,10 @@ export function Providers({ children, themeProps }: ProvidersProps) {
 
 	return (
 		<NextUIProvider navigate={router.push}>
-			<NextThemesProvider {...themeProps}>{children}</NextThemesProvider>
+			<main className="light text-foreground bg-background">
+				{children}
+			</main>
+
 		</NextUIProvider>
 	);
 }
