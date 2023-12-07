@@ -44,7 +44,7 @@ export default function NewsLetter() {
         <Input ref={inputEl} type="email" label="Email" placeholder="Enter your email" />
       </div>
 
-      <Button type='submit' color='primary'>
+      <Button type='submit' color="primary" variant="bordered">
         Subscribe
       </Button>
       <div className="text-green-500 mt-2">{message}</div>
