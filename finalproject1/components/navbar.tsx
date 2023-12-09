@@ -18,8 +18,6 @@ import { siteConfig } from "@/config/site";
 import NextLink from "next/link";
 import clsx from "clsx";
 
-import { ThemeSwitch } from "@/components/theme-switch";
-
 import { Logo } from "@/components/icons";
 
 export const Navbar = () => {
