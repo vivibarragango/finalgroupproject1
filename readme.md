@@ -18,4 +18,4 @@ Link to Figma Design Check Point 1 [here](/business_analysis/figma_design1.md)
 
 Link to Figma Design Check Point 2 [here](/business_analysis/figma_design2.md)
 
-Link to Vecel - deployment [here](https://finalgroupproject1.vercel.app/)
+Link to Vercel - deployment [here](https://finalgroupproject1.vercel.app/)
