@@ -1,11 +1,11 @@
 Intro
 
-As our project team iteratively develop this website we will need a design-board that guides us as a frame of reference in which our developer will be able to use to deliver the finalized product. The QA Developer and Designer, was able to create a Figma Design mock-up and presented this design to two different people with different perspectives, knowledge of industry, and personal interests. At the bottom of this document will be an image for reference of what was presented to the two distinct people. Below you will see a brief introduction of their character and how their insights might be valueable and the feedback they provided.
+As our project team iteratively develop this website we will need a design-board that guides us as a frame of reference in which our developer will be able to use to deliver the finalized product. The QA Developer and Designer, was able to create a Figma Design mock-up and presented this design to two different people with different perspectives, knowledge of industry, and personal interests. At the bottom of this document will be an image for reference of what was presented to the two distinct people. Below you will see a brief introduction of their character and how their insights might be valuable and the subsequent feedback they provided.
 
 Person 1
 
 Person 1 is a Creative Director at a well known advertisement agency. He has had experience designing websites at the creative level and is sat with tasks to bring new creative ideas to advertisement posts, magazine editions, graphic design or even professional photoshoots. He does not drink coffee and does not particularly identify with the "Caregiver" brand archetype. However, the Figma designer deemed his insight valueable since he has strong creative design principles and can easily identify content placement issues or cohesiveness of content displayed in the design. This is the feedback he gave with the 12/6/23 dated Figma design:
-- For the Hero Title and Text make it in-line with the brand logo and image below, so that everything is in one complete line.
+- For the Hero Title and text make it in-line with the brand logo and image below, so that everything is in one complete line.
 - In the Rewards section, align all text so everything is on one line.
 - In the Rewards section, he told us to left-align the title "What can I earn?", to make it align with the other content in that section.
 - In the Rewards section, he remarked about the color choice of the background color, he gaves us two options. Option 1 is to the change gradient color selection to allow the text to be more reader-friendly. Option 2 was to change the background color to one solid color. 
