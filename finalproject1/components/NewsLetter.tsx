@@ -9,7 +9,7 @@ export default function NewsLetter() {
   // 2. Hold a message in state to handle the response from our API.
   const [message, setMessage] = useState('');
 
-  const subscribe = async (e) => {
+  const subscribe = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     // 3. Send a request to our API with the user's email address.
