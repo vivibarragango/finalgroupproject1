@@ -12,18 +12,18 @@ export default function NewsLetter() {
   const subscribe = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    // 3. Send a request to our API with the user's email address.
-    const res = await fetch('/api/subscribe', {
-      body: JSON.stringify({
-        email: inputEl.current.value,
-      }),
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      method: 'POST',
-    });
-
-    const { error } = res.json();
+    if (inputEl.current) {
+      const res = await fetch('/api/subscribe', {
+        body: JSON.stringify({
+          email: inputEl.current.value,
+        }),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        method: 'POST',
+      });
+    
+    const { error } = await res.json();
 
     if (error) {
       // 4. If there was an error, update the message in state.
@@ -35,6 +35,7 @@ export default function NewsLetter() {
     // 5. Clear the input value and show a success message.
     inputEl.current.value = '';
     setMessage('Success! 🎉 You are now subscribed to the newsletter.');
+  }
   };
 
   return (
