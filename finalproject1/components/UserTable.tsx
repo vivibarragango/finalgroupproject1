@@ -38,9 +38,9 @@ export default function UserTable() {
         </TableRow>
         <TableRow key="5">
           <TableCell className="font-column">Gift Cards</TableCell>
-          <TableCell></TableCell>
+          <TableCell>-</TableCell>
           <TableCell className="font-column">Twitter</TableCell>
-          <TableCell></TableCell>
+          <TableCell>-</TableCell>
         </TableRow>
       </TableBody>
     </Table>
