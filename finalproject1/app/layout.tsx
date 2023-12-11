@@ -6,9 +6,9 @@ import { Providers } from "./providers";
 import { Navbar } from "@/components/navbar";
 import clsx from "clsx";
 import UserTable from "@/components/UserTable";
-import InputF from "@/components/InputF";
 import NewsLetter from "@/components/NewsLetter";
 import GoogleAnalytics from '@/components/GoogleAnalytics';
+import CookieBanner from '@/components/CookieBanner';
 
 
 export const metadata: Metadata = {
@@ -56,6 +56,7 @@ export default function RootLayout({
 						</footer>
 					</div>
 				</Providers>
+				<CookieBanner/>
 			</body>
 		</html>
 	);
