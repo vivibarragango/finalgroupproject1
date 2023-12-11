@@ -29,7 +29,7 @@ export default function CookieBanner(){
         console.log("Cookie Consent: ", cookieConsent)
 
     }, [cookieConsent]);
-    
+
     return (
         <div className={`my-10 mx-auto max-w-max md:max-w-screen-sm
                         fixed bottom-0 left-0 right-0 
@@ -42,8 +42,9 @@ export default function CookieBanner(){
 
             
             <div className='flex gap-2'>
-                <button className='px-5 py-2 text-gray-300 rounded-md border-gray-900'>Decline</button>
-                <button className='bg-gray-900 px-5 py-2 text-white rounded-lg'>Allow Cookies</button>
+                <button className='px-5 py-2 text-gray-300 rounded-md border-gray-900' onClick={() => setCookieConsent(false)}>Decline</button>
+                <button className='bg-gray-900 px-5 py-2 text-white rounded-lg' onClick={() => setCookieConsent(true)}>Allow Cookies</button>
+
             </div>   
         </div>
     )}
