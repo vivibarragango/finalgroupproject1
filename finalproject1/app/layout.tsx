@@ -8,7 +8,7 @@ import clsx from "clsx";
 import UserTable from "@/components/UserTable";
 import NewsLetter from "@/components/NewsLetter";
 import GoogleAnalytics from '@/components/GoogleAnalytics';
-import CookieBanner from '@/components/cookiebanner';
+import CookieBanner from '@/components/CookieBanner';
 
 
 export const metadata: Metadata = {
@@ -49,6 +49,7 @@ export default function RootLayout({
 						<main className="light text-foreground bg-background container mx-auto max-w-7xl pt-16 px-6 flex-grow">
 						
 							{children}
+							
 						</main>
 						<footer className="dark text-foreground bg-background w-full flex items-center justify-center py-3">
 							<UserTable />
