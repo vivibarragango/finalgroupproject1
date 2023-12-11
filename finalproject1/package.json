@@ -26,6 +26,7 @@
     "@types/node": "20.5.7",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
+    "client-only": "^0.0.1",
     "clsx": "^2.0.0",
     "eslint": "8.48.0",
     "eslint-config-next": "14.0.2",
@@ -41,6 +42,7 @@
     "unfetch": "^5.0.0"
   },
   "devDependencies": {
+    "@types/gtag.js": "^0.0.18",
     "@types/mailchimp__mailchimp_marketing": "^3.0.17",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",
