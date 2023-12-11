@@ -8,7 +8,7 @@ import clsx from "clsx";
 import UserTable from "@/components/UserTable";
 import NewsLetter from "@/components/NewsLetter";
 import GoogleAnalytics from '@/components/GoogleAnalytics';
-import CookieBanner from '@/components/CookieBanner';
+import CookieBanner from '@/components/cookiebanner';
 
 
 export const metadata: Metadata = {
