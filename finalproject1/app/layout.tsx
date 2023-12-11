@@ -8,6 +8,7 @@ import clsx from "clsx";
 import UserTable from "@/components/UserTable";
 import InputF from "@/components/InputF";
 import NewsLetter from "@/components/NewsLetter";
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 
 
 export const metadata: Metadata = {
@@ -35,6 +36,7 @@ export default function RootLayout({
 	return (
 		<html lang="en" suppressHydrationWarning>
 			<head />
+			<GoogleAnalytics GA_MEASUREMENT_ID='G-HZXPDQQ44G'/>
 			<body
 				className={clsx(
 					"min-h-screen bg-background font-sans antialiased",
@@ -45,6 +47,7 @@ export default function RootLayout({
 					<div className="relative flex flex-col h-screen">
 						<Navbar />
 						<main className="light text-foreground bg-background container mx-auto max-w-7xl pt-16 px-6 flex-grow">
+						
 							{children}
 						</main>
 						<footer className="dark text-foreground bg-background w-full flex items-center justify-center py-3">
