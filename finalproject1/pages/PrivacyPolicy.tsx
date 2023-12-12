@@ -24,7 +24,7 @@ const PrivacyPolicy: React.FC = () => {
       <h3 className="font-semibold">3. How We Use Your Data</h3>
       <p>We use the collected data for the following purposes:</p>
       <ul className="list-disc ml-6">
-        <li>To improve and optimize our website's performance.</li>
+        <li>To improve and optimize our website&apos;s performance.</li>
         <li>To analyze user behavior and trends using Google Analytics.</li>
         <li>To prevent and address security issues.</li>
       </ul>
