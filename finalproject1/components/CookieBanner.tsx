@@ -1,6 +1,7 @@
 'use client';
 
-import Link from 'next/link'
+//import Link from 'next/link'
+import {Link} from "@nextui-org/react";
 
 import { getLocalStorage, setLocalStorage } from '@/lib/storageHelper';
 import { useState, useEffect } from 'react';
@@ -50,10 +51,10 @@ export default function CookieBanner(){
             style={{ display: bannerVisible ? 'flex' : 'none' }}>
 
             <div className='text-center'>
-                <Link href="/info/cookies"><p>We use <span className='font-bold text-sky-400'>cookies</span> on our site.</p></Link>
-            </div>
+                <p>We use cookies on our site. By accepting, you agree to our<Link href="/PrivacyPolicy" color="primary"> Privacy Policy</Link>.</p>
 
-            
+            </div>
+                        
             <div className='flex gap-2'>
                 <button className='px-5 py-2 text-gray-300 rounded-md border-gray-900' onClick={handleDeclineCookies}>Decline</button>
                 <button className='bg-gray-900 px-5 py-2 text-white rounded-lg' onClick={handleAllowCookies}>Allow Cookies</button>
