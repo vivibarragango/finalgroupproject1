@@ -10,7 +10,6 @@ import NewsLetter from "@/components/NewsLetter";
 import GoogleAnalytics from '@/components/GoogleAnalytics';
 import CookieBanner from '@/components/CookieBanner';
 
-
 export const metadata: Metadata = {
 	title: {
 		default: siteConfig.name,
@@ -46,6 +45,8 @@ export default function RootLayout({
 				<Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
 					<div className="relative flex flex-col h-screen">
 						<Navbar />
+						<hr className="border-black border-2" />
+
 						<main className="light text-foreground bg-background container mx-auto max-w-7xl pt-16 px-6 flex-grow">
 							{children}							
 						</main>
