@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Spacer } from '@nextui-org/react';
+import { Card, Spacer, Link } from '@nextui-org/react';
 
 const PrivacyPolicy: React.FC = () => {
   return (
@@ -62,6 +62,7 @@ const PrivacyPolicy: React.FC = () => {
 
       <h3 className="font-semibold">10. Contact Us</h3>
       <p>If you have any questions about this Privacy Policy or your personal data, please contact us at cafecaserovibi@gmail.com.</p>
+
     </Card>
   );
 };
