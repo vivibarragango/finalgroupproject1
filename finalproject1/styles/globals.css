@@ -17,9 +17,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 4rem;
-  background: #f7f7f7; /* Color de fondo de la sección */
-  border-bottom: 5px solid #faa; /* Borde inferior rojo */
+  padding: 2rem;
+  background: white; /* Color de fondo de la sección */
+  
 }
 
 .hero-content {
