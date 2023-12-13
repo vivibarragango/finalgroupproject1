@@ -46,10 +46,18 @@
 }
 
 .hero-image-container {
-  position: relative;
-  width: 45%; /* Ajusta el ancho como sea necesario */
-  height: 300px; /* Ajusta la altura como sea necesario */
-}
+    position: relative;
+    width: 55%; /* Ajusta el ancho como sea necesario */
+    height: 400px; /* Ajusta la altura como sea necesario */
+  }
+  
+  .hero-image-people {
+      position: relative;
+      width: 35%; /* Ajusta el ancho como sea necesario */
+      height: 200px; /* Ajusta la altura como sea necesario */
+  }  
+  
+  
 
 @media (max-width: 768px) {
   .hero {

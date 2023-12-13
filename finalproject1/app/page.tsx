@@ -23,11 +23,9 @@ export default function Home() {
 				</Button>
 			</div>
 			<div className="hero-image-container">
-				<Image src="/hero2.png" alt="Coffee Shop" layout="fill" objectFit="cover" />
+				<Image src="/hero.png" alt="Coffee Shop" layout="fill" objectFit="cover" />
 			</div>
-			<div className="hero-image-container">
-				<Image src="/hero1.png" alt="Coffee Shop" layout="fill" objectFit="cover" />
-			</div>
+		
 		</section>
 	);
 }
