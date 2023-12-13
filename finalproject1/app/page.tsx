@@ -5,7 +5,7 @@ import { button as buttonStyles } from "@nextui-org/theme";
 import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { Button } from '@nextui-org/react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 
 export default function Home() {
 	return (
