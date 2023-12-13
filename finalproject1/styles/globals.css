@@ -38,9 +38,9 @@
 }
 
 .cta-button {
-  background: #e44d26; /* Color de fondo del botón */
-  color: white;
-  border: none;
+  background: white ; /* Color de fondo del botón */
+  color: #e44d26;
+  border: 1px solid black;;
   padding: 10px 20px;
   cursor: pointer;
 }
