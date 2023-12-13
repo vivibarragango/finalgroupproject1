@@ -11,3 +11,55 @@
     font-family: 'Crimson Text';
 }
 
+/* styles/global.css */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  background: #f7f7f7; /* Color de fondo de la sección */
+  border-bottom: 5px solid #faa; /* Borde inferior rojo */
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.hero-description {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background: #e44d26; /* Color de fondo del botón */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hero-image-container {
+  position: relative;
+  width: 45%; /* Ajusta el ancho como sea necesario */
+  height: 300px; /* Ajusta la altura como sea necesario */
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-content,
+  .hero-image-container {
+    max-width: 100%;
+  }
+  .hero-image-container {
+    height: 200px; /* Altura más pequeña para móviles */
+  }
+}
