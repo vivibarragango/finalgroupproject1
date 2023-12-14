@@ -18,7 +18,7 @@ export default function Home() {
 					the best coffee beans for your pleasure. Purchase a cup of coffee now and feel
 					the warmth we have imbued into every cup. Join our community today!
 				</p>
-				<Button className="cta-button">
+				<Button className="cta-button font-column">
 					Foster your Community
 				</Button>
 			</div>
