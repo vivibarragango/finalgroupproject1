@@ -58,6 +58,43 @@
       width: 35%; /* Ajusta el ancho como sea necesario */
       height: 200px; /* Ajusta la altura como sea necesario */
   }  
+
+  .reward {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: white; /* Color de fondo de la sección */
+    
+  }
+
+  .reward-image-container {
+    position: relative;
+    width: 55%; /* Ajusta el ancho como sea necesario */
+    height: 400px; /* Ajusta la altura como sea necesario */
+  }
+
+  .reward-content {
+    max-width: 25%;
+    
+  }
+  .reward-content2 {
+    max-width: 25%;
+    
+  }
+  
+  .reward-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    white-space: nowrap; /* Prevents wrapping of text */
+  }
+  
+  .reward-description {
+    color: #666;
+    margin-bottom: 2rem;
+  }
   
   
 
