@@ -49,7 +49,9 @@ export const Reward = () => {
 					<li><FontAwesomeIcon icon={faSun} color="yellow" /> 4000 Warmth - Free Merchandise Item on Us</li>
 				</ul>
 				<p className="reward-description font-column">Become a cherished member of our community and enjoy exclusive rewards. Join our loyalty program today and start savoring the benefits!</p>
-								
+				<Button className="reward-button font-column font-bold">
+					Reward Yourself
+				</Button>				
 			</div>
 
 		</section>
