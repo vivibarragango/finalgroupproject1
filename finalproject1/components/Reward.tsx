@@ -13,14 +13,14 @@ export const Reward = () => {
 			
 		<section className="reward">
 
-			<div >
+			<div className='reward-image'>
 				
 				<Image
 					src="/coffeecup.png"
-					width={188}
-					height={512}
+					width={238}
+					height={562}
 					alt="reward picture"
-					
+						
 				/>
 			</div>
 			<div className="reward-content">

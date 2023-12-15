@@ -82,12 +82,16 @@
     height: 400px; /* Ajusta la altura como sea necesario */
   }
 
+  .reward-image{
+    position: 'relative'
+  }
+
   .reward-content {
-    max-width: 25%;
+    max-width: 20%;
     
   }
   .reward-content2 {
-    max-width: 25%;
+    max-width: 30%;
     
   }
   
