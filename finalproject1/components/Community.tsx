@@ -10,48 +10,31 @@ export const Community = () => {
 	return (
 
 		<>
-			
-		<section className="reward">
-
+            <section className="community-title-container">
+                <h1 className="community-title font-head">Contribute to Your Community</h1>
+            </section>
+		<section className="community">
+        
+                   
+                <div className="hero-content">
+                <p className="hero-description font-column">
+                        We have cared for our coffee through its complete life-cycle, selecting and roasting
+                        the best coffee beans for your pleasure. Purchase a cup of coffee now and feel
+                        the warmth we have imbued into every cup. Join our community today!
+                    </p>
+                    <Button className="cta-button font-column">
+                        Foster your Community
+                    </Button>
+                </div>
 			<div className="relative col-span-6 md:col-span-4">
 				
 				<Image
-					src="/coffeecup.png"
-					width={338}
-					height={662}
-					alt="reward picture"
-					className='object-cover'
+					src="/happy.png"
+					width={617}
+					height={358}
+					alt="community picture"
 						
 				/>
-			</div>
-			<div className="reward-content">
-				<h1 className="reward-title font-head">Loyalty</h1>
-				<p className="reward-description font-column">
-				Get Discounted Prices or Free Items by placing frequent orders with us.
-				</p>
-				<h1 className="reward-title font-head">Community</h1>
-				<p className="reward-description font-column">
-				Join an embracing community that will generate the best connections possible.
-				</p>
-				<h1 className="reward-title font-head">Outreach</h1>
-				<p className="reward-description font-column">
-				Keep up to date with any organizations we have partnered with to give back.
-				</p>
-				
-			</div>
-			<div className="reward-content2">
-				<h1 className="reward-title2 font-head">What Can I Earn?</h1>
-				<ul>
-				    <li><FontAwesomeIcon icon={faSun} color="yellow" /> <span className='reward-description font-column'>25 Warmth - Free Size Upgrade</span></li>
-					<li><FontAwesomeIcon icon={faSun} color="yellow" /> <span className='reward-description font-column'>100 Warmth - 50% Off Next Drink</span></li>
-					<li><FontAwesomeIcon icon={faSun} color="yellow" /> <span className='reward-description font-column'>250 Warmth - Free Drink Item on Us</span></li>
-					<li><FontAwesomeIcon icon={faSun} color="yellow" /><span className='reward-description font-column'> 2000 Warmth - Free Bulk Coffee on Us</span></li>
-					<li><FontAwesomeIcon icon={faSun} color="yellow" /> <span className='reward-description font-column'>4000 Warmth - Free Merchandise Item on Us</span></li>
-				</ul>
-				<p className="reward-description font-column">Become a cherished member of our community and enjoy exclusive rewards. Join our loyalty program today and start savoring the benefits!</p>
-				<Button className="reward-button font-column font-bold">
-					Reward Yourself
-				</Button>				
 			</div>
 
 		</section>
