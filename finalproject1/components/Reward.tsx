@@ -13,13 +13,14 @@ export const Reward = () => {
 			
 		<section className="reward">
 
-			<div className='reward-image'>
+			<div className="relative col-span-6 md:col-span-4">
 				
 				<Image
 					src="/coffeecup.png"
-					width={238}
-					height={562}
+					width={338}
+					height={662}
 					alt="reward picture"
+					className='object-cover'
 						
 				/>
 			</div>
@@ -39,7 +40,7 @@ export const Reward = () => {
 				
 			</div>
 			<div className="reward-content2">
-				<h1 className="reward-title font-head">What Can I Earn?</h1>
+				<h1 className="reward-title2 font-head">What Can I Earn?</h1>
 				<ul>
 				    <li><FontAwesomeIcon icon={faSun} color="yellow" /> <span className='reward-description font-column'>25 Warmth - Free Size Upgrade</span></li>
 					<li><FontAwesomeIcon icon={faSun} color="yellow" /> <span className='reward-description font-column'>100 Warmth - 50% Off Next Drink</span></li>

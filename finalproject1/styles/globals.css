@@ -71,7 +71,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
     background: #ff9494; /* Color de fondo de la sección */
     
   }
@@ -101,6 +100,16 @@
     margin-bottom: 1rem;
     font-weight: 700;
     white-space: nowrap; /* Prevents wrapping of text */
+    
+  }
+
+  .reward-title2 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    
+    
   }
   
   .reward-description {
