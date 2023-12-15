@@ -2,7 +2,6 @@
 import { Button } from '@nextui-org/react';
 import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFire } from '@fortawesome/free-solid-svg-icons';
 import { faSun } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -42,11 +41,11 @@ export const Reward = () => {
 			<div className="reward-content2">
 				<h1 className="reward-title font-head">What Can I Earn?</h1>
 				<ul>
-				    <li><FontAwesomeIcon icon={faSun} color="yellow" /> 25 Warmth - Free Size Upgrade</li>
-					<li><FontAwesomeIcon icon={faSun} color="yellow" /> 100 Warmth - 50% Off Next Drink</li>
-					<li><FontAwesomeIcon icon={faSun} color="yellow" /> 250 Warmth - Free Drink Item on Us</li>
-					<li><FontAwesomeIcon icon={faSun} color="yellow" /> 2000 Warmth - Free Bulk Coffee on Us</li>
-					<li><FontAwesomeIcon icon={faSun} color="yellow" /> 4000 Warmth - Free Merchandise Item on Us</li>
+				    <li><FontAwesomeIcon icon={faSun} color="yellow" /> <span className='reward-description font-column'>25 Warmth - Free Size Upgrade</span></li>
+					<li><FontAwesomeIcon icon={faSun} color="yellow" /> <span className='reward-description font-column'>100 Warmth - 50% Off Next Drink</span></li>
+					<li><FontAwesomeIcon icon={faSun} color="yellow" /> <span className='reward-description font-column'>250 Warmth - Free Drink Item on Us</span></li>
+					<li><FontAwesomeIcon icon={faSun} color="yellow" /><span className='reward-description font-column'> 2000 Warmth - Free Bulk Coffee on Us</span></li>
+					<li><FontAwesomeIcon icon={faSun} color="yellow" /> <span className='reward-description font-column'>4000 Warmth - Free Merchandise Item on Us</span></li>
 				</ul>
 				<p className="reward-description font-column">Become a cherished member of our community and enjoy exclusive rewards. Join our loyalty program today and start savoring the benefits!</p>
 				<Button className="reward-button font-column font-bold">
