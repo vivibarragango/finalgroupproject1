@@ -82,25 +82,29 @@
     height: 400px; /* Ajusta la altura como sea necesario */
   }
 
+  .reward-image{
+    position: 'relative'
+  }
+
   .reward-content {
-    max-width: 25%;
+    max-width: 20%;
     
   }
   .reward-content2 {
-    max-width: 25%;
+    max-width: 30%;
     
   }
   
   .reward-title {
     font-size: 1.5rem;
-    color: #333;
+    color: #000000;
     margin-bottom: 1rem;
     font-weight: 700;
     white-space: nowrap; /* Prevents wrapping of text */
   }
   
   .reward-description {
-    color: #666;
+    color: #000000;
     margin-bottom: 2rem;
   }
   
