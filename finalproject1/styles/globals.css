@@ -71,7 +71,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem;
     background: #ff9494; /* Color de fondo de la sección */
     
   }
@@ -101,11 +100,58 @@
     margin-bottom: 1rem;
     font-weight: 700;
     white-space: nowrap; /* Prevents wrapping of text */
+    
+  }
+
+  .reward-title2 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    
+    
   }
   
   .reward-description {
     color: #000000;
     margin-bottom: 2rem;
+  }
+
+  .community {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: white; /* Color de fondo de la sección */
+    
+  }
+
+  .community-title-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 3rem;
+  }
+  
+   .community-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    white-space: nowrap; /* Prevents wrapping of text */
+    text-align: center; 
+  }
+
+  .community-content {
+    max-width: 30%;
+  }
+  
+
+  .community-description {
+    color: black;
+    margin-bottom: 2rem;
+    font-size:1.5rem ;
+    text-align: justify;
   }
   
   
