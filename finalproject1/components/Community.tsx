@@ -15,7 +15,6 @@ export const Community = () => {
             </section>
             <section className="community">
 
-
                 <div className="community-content">
                     <p className="community-description font-column">
                         We have cared for our coffee through its complete life-cycle, selecting and roasting
