@@ -28,7 +28,7 @@
 
 .hero-title {
   font-size: 2.5rem;
-  color: #333;
+  color: black;
   margin-bottom: 1rem;
   font-weight: 700;
   white-space: nowrap; /* Prevents wrapping of text */
@@ -135,7 +135,7 @@
   
    .community-title {
     font-size: 2.5rem;
-    color: #333;
+    color: black;
     margin-bottom: 1rem;
     font-weight: 700;
     white-space: nowrap; /* Prevents wrapping of text */
@@ -154,8 +154,25 @@
     text-align: justify;
   }
 
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: white; /* Color de fondo de la sección */
+    
+  }
+
   .about-content {
-    max-width: 70%;
+    max-width: 60%;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    white-space: nowrap; /* Prevents wrapping of text */
   }
   
 
