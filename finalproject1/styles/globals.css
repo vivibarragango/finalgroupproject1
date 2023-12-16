@@ -133,22 +133,25 @@
     margin-top: 3rem;
   }
   
-  .community-title {
-    font-size: 2.5rem;
-    color: #333;
-    margin-bottom: 1rem;
-    font-weight: 700;
-    white-space: nowrap;
-  }
-  
-
-  .community-title {
+   .community-title {
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 1rem;
     font-weight: 700;
     white-space: nowrap; /* Prevents wrapping of text */
     text-align: center; 
+  }
+
+  .community-content {
+    max-width: 30%;
+  }
+  
+
+  .community-description {
+    color: black;
+    margin-bottom: 2rem;
+    font-size:1.5rem ;
+    text-align: justify;
   }
   
   
