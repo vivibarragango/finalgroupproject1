@@ -10,3 +10,190 @@
 .font-column{
     font-family: 'Crimson Text';
 }
+
+/* styles/global.css */
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background: white; /* Color de fondo de la sección */
+  
+}
+
+.hero-content {
+  max-width: 50%;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  white-space: nowrap; /* Prevents wrapping of text */
+}
+
+.hero-description {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background: white ; /* Color de fondo del botón */
+  color: #e44d26;
+  border: 1px solid black;;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.reward-button {
+  background: #ff9494 ; /* Color de fondo del botón */
+  color: #F31260;
+  border: 1px solid black;;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.hero-image-container {
+    position: relative;
+    width: 55%; /* Ajusta el ancho como sea necesario */
+    height: 400px; /* Ajusta la altura como sea necesario */
+  }
+  
+  .hero-image-people {
+      position: relative;
+      width: 35%; /* Ajusta el ancho como sea necesario */
+      height: 200px; /* Ajusta la altura como sea necesario */
+  }  
+
+  .reward {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ff9494; /* Color de fondo de la sección */
+    
+  }
+
+  .reward-image-container {
+    position: relative;
+    width: 55%; /* Ajusta el ancho como sea necesario */
+    height: 400px; /* Ajusta la altura como sea necesario */
+  }
+
+  .reward-image{
+    position: 'relative'
+  }
+
+  .reward-content {
+    max-width: 20%;
+    
+  }
+  .reward-content2 {
+    max-width: 30%;
+    
+  }
+  
+  .reward-title {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    white-space: nowrap; /* Prevents wrapping of text */
+    
+  }
+
+  .reward-title2 {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    
+    
+  }
+  
+  .reward-description {
+    color: #000000;
+    margin-bottom: 2rem;
+  }
+
+  .community {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: white; /* Color de fondo de la sección */
+    
+  }
+
+  .community-title-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 3rem;
+  }
+  
+   .community-title {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    white-space: nowrap; /* Prevents wrapping of text */
+    text-align: center; 
+  }
+
+  .community-content {
+    max-width: 30%;
+  }
+  
+
+  .community-description {
+    color: black;
+    margin-bottom: 2rem;
+    font-size:1.5rem ;
+    text-align: justify;
+  }
+
+  .about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background: white; /* Color de fondo de la sección */
+    
+  }
+
+  .about-content {
+    max-width: 60%;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+    color: black;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    white-space: nowrap; /* Prevents wrapping of text */
+  }
+  
+
+  .about-description {
+    color: black;
+    margin-bottom: 2rem;
+    font-size:1.5rem ;
+    text-align: justify;
+  }
+  
+  
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero-content,
+  .hero-image-container {
+    max-width: 100%;
+  }
+  .hero-image-container {
+    height: 200px; /* Altura más pequeña para móviles */
+  }
+}

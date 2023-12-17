@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "@mailchimp/mailchimp_marketing": "^3.0.80",
     "@nextui-org/button": "2.0.26",
     "@nextui-org/code": "2.0.24",
@@ -26,13 +29,14 @@
     "@types/node": "20.5.7",
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
+    "client-only": "^0.0.1",
     "clsx": "^2.0.0",
     "eslint": "8.48.0",
     "eslint-config-next": "14.0.2",
     "framer-motion": "^10.16.4",
     "intl-messageformat": "^10.5.0",
     "isomorphic-unfetch": "^4.0.2",
-    "next": "14.0.2",
+    "next": "^14.0.4",
     "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
@@ -41,6 +45,7 @@
     "unfetch": "^5.0.0"
   },
   "devDependencies": {
+    "@types/gtag.js": "^0.0.18",
     "@types/mailchimp__mailchimp_marketing": "^3.0.17",
     "autoprefixer": "^10.4.16",
     "postcss": "^8.4.32",

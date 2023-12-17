@@ -22,4 +22,4 @@ Each person should put an 'X' under their name on the days they have meetings.
 | Dec 3 (Sun) |     x     |     x     |           
 | Dec 6 (Wed) |     x     |     x     |           
 | Dec 8 (Fri) |     x     |     x     |           
-| Dec 13 (Wed)|           |           |           
+| Dec 13 (Wed)|     x     |     x     |           
