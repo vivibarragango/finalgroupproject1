@@ -10,6 +10,10 @@ const expectedLogoText = 'Cafe Casero ViBi';
 const expectedMenuItemCount = 4;
 const expectedHeroTitle = 'Catered to Your Preference: Savor Our Soulful Coffee';
 const expectedHeroButtonText = 'Foster your Community';
+const expectedRewardTitle = 'What Can I Earn?';
+const expectedRewardButtonText = 'Reward Yourself';
+const expectedCommunityTitle = 'Contribute to Your Community';
+const expectedCommunityButtonText = 'Our Active Partnerships';
 
 test.beforeEach(async ({ page }) => {
     await page.goto(websiteURL);
@@ -67,3 +71,40 @@ test('Check Hero Button', async ({ page }) => {
     const actionButtonText = await actionButton.textContent();
     expect(actionButtonText.trim()).toBe(expectedHeroButtonText);
   });
+
+test('Check Rewards Image', async ({ page }) => {
+    const HeroImageSelector = '.reward img';
+    const HeroMeImage = await page.locator(HeroImageSelector);
+    expect(HeroMeImage).not.toBeNull();
+    const isImageVisible = await HeroMeImage.isVisible();
+    expect(isImageVisible).toBe(true);
+    const altText = await HeroMeImage.getAttribute('alt');
+    expect(altText).not.toBeNull();
+  });  
+
+test('Check Reward Title', async ({ page }) => {
+    expect(await page.locator('.reward-content2 h1').textContent()).toBe(expectedRewardTitle);
+  });
+
+test('Check Reward Button', async ({ page }) => {
+    const actionButtonSelector = '.reward-content2 button';
+    const actionButton = await page.locator(actionButtonSelector);
+    const isActionButtonVisible = await actionButton.isVisible();
+    expect(isActionButtonVisible).toBe(true);
+    const actionButtonText = await actionButton.textContent();
+    expect(actionButtonText.trim()).toBe(expectedRewardButtonText);
+  });
+
+test('Check Community Title', async ({ page }) => {
+    expect(await page.locator('.community-title-container h1').textContent()).toBe(expectedCommunityTitle);
+  });
+
+test('Check Community Button', async ({ page }) => {
+    const actionButtonSelector = '.community-content button';
+    const actionButton = await page.locator(actionButtonSelector);
+    const isActionButtonVisible = await actionButton.isVisible();
+    expect(isActionButtonVisible).toBe(true);
+    const actionButtonText = await actionButton.textContent();
+    expect(actionButtonText.trim()).toBe(expectedCommunityButtonText);
+  });
+
