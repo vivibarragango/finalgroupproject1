@@ -1,8 +1,9 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
+	name: "Cafe Casero ViBi – Coffee that cares for you.",
+	description: "Come and join our active community and let us care for you with $10 off your next order.",
+	keywords: "coffee, cafe, homemade coffee, community cafe, Cafe Casero ViBi",
 	navItems: [
 		{
 			label: "Menu",
