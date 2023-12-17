@@ -10,7 +10,7 @@ export const siteConfig = {
 		},
     {
       label: "Rewards",
-      href: "/Rewards",
+      href: "#reward",
     },
     {
       label: "Community",
