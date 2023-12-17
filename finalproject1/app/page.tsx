@@ -10,7 +10,9 @@ export default function Home() {
 		<>
 			<HeroSection />
 
-			<Reward />
+			<div id="reward">
+				<Reward />
+			</div>
 			<Community />
 
 			<About />
