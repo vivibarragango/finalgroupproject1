@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "test": "playwright test",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -45,6 +46,7 @@
     "unfetch": "^5.0.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.40.1",
     "@types/gtag.js": "^0.0.18",
     "@types/mailchimp__mailchimp_marketing": "^3.0.17",
     "autoprefixer": "^10.4.16",
