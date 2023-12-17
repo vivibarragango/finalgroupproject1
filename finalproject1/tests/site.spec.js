@@ -14,6 +14,8 @@ const expectedRewardTitle = 'What Can I Earn?';
 const expectedRewardButtonText = 'Reward Yourself';
 const expectedCommunityTitle = 'Contribute to Your Community';
 const expectedCommunityButtonText = 'Our Active Partnerships';
+const expectedAboutUsTitle = 'About Us';
+
 
 test.beforeEach(async ({ page }) => {
     await page.goto(websiteURL);
@@ -108,3 +110,16 @@ test('Check Community Button', async ({ page }) => {
     expect(actionButtonText.trim()).toBe(expectedCommunityButtonText);
   });
 
+test('Check About Us Title', async ({ page }) => {
+    expect(await page.locator('.about-content h1').textContent()).toBe(expectedAboutUsTitle);
+  });
+
+test('Check About Us Image', async ({ page }) => {
+    const HeroImageSelector = '.about img';
+    const HeroMeImage = await page.locator(HeroImageSelector);
+    expect(HeroMeImage).not.toBeNull();
+    const isImageVisible = await HeroMeImage.isVisible();
+    expect(isImageVisible).toBe(true);
+    const altText = await HeroMeImage.getAttribute('alt');
+    expect(altText).not.toBeNull();
+  });  
