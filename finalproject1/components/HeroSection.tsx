@@ -9,6 +9,8 @@ import {
 	ModalFooter
   } from "@nextui-org/react";
 
+  import NewsLetter from "@/components/NewsLetter";
+
 export const HeroSection = () => {
 	
 	return (
