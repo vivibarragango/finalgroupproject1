@@ -15,6 +15,7 @@ const expectedRewardButtonText = 'Reward Yourself';
 const expectedCommunityTitle = 'Contribute to Your Community';
 const expectedCommunityButtonText = 'Our Active Partnerships';
 const expectedAboutUsTitle = 'About Us';
+const expectedMetaKeywordsNotEmpty = '';
 
 
 test.beforeEach(async ({ page }) => {
@@ -37,9 +38,10 @@ test('Check SEO Meta Description', async ({ page }) => {
 });
 
 test('Check SEO Meta Keywords', async ({ page }) => {
-    const metaKeywords = await page.getAttribute('meta[name="keywords"]', 'content');
-    expect(metaKeywords).not.toBe(expectedMetaKeywordsNotEmpty);
+  const metaKeywords = await page.getAttribute('meta[name="keywords"]', 'content');
+  expect(metaKeywords).not.toBe(expectedMetaKeywordsNotEmpty);
 });
+
 
 test('Check Logo in Header', async ({ page }) => {
     const logoText = await page.locator('p.font-head.text-inherit').textContent();
