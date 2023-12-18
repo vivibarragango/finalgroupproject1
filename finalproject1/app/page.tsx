@@ -13,9 +13,11 @@ export default function Home() {
 			<div id="reward">
 				<Reward />
 			</div>
-			<Community />
-
-			<About />
+			<div id="community">
+				<Community />
+			</div>
+            <div id="about"><About /></div>
+			
 		</>
 	);
 }
