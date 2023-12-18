@@ -16,8 +16,8 @@ export default function Home() {
 			<div id="community">
 				<Community />
 			</div>
-
-			<About />
+            <div id="about"><About /></div>
+			
 		</>
 	);
 }
