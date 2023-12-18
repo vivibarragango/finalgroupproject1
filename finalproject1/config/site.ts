@@ -15,7 +15,7 @@ export const siteConfig = {
     },
     {
       label: "Community",
-      href: "/Community",
+      href: "#community",
     },
     {
       label: "About us",
