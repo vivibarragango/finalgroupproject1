@@ -1,6 +1,13 @@
 "use client";
 import { Button } from '@nextui-org/react';
 import Image from "next/legacy/image";
+import {
+	Modal, 
+	ModalContent, 
+	ModalHeader, 
+	ModalBody, 
+	ModalFooter
+  } from "@nextui-org/react";
 
 export const HeroSection = () => {
 	
