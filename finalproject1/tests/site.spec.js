@@ -16,7 +16,9 @@ const expectedCommunityTitle = 'Contribute to Your Community';
 const expectedCommunityButtonText = 'Our Active Partnerships';
 const expectedAboutUsTitle = 'About Us';
 const expectedMetaKeywordsNotEmpty = '';
-
+const expectedFooterHeadersText = 'MENUCOMMUNITYSOCIALSABOUT US';
+const expectedFormTitleText = 'Subscribe to our Newsletter';
+const expectedSubscribeButtonText = 'Subscribe';
 
 test.beforeEach(async ({ page }) => {
     await page.goto(websiteURL);
@@ -125,3 +127,31 @@ test('Check About Us Image', async ({ page }) => {
     const altText = await HeroMeImage.getAttribute('alt');
     expect(altText).not.toBeNull();
   });  
+
+test('Check Footer Headers', async ({ page }) => {
+    const FooterSelector = '[data-key = "1"]';
+    const FooterHeaders = await page.locator(FooterSelector);
+    const FooterHeadersText = await FooterHeaders.textContent();
+    expect(FooterHeadersText).toBe(expectedFooterHeadersText);
+})
+
+test('Check Form Title', async ({ page }) => {
+    const FormTitleSelector = '.mb-2.font-head';
+    const FormTitle = await page.locator(FormTitleSelector);
+    const FormTitleText = await FormTitle.textContent();
+    expect(FormTitleText).toBe(expectedFormTitleText);
+  });
+
+test('Check Form Email', async ({ page }) => {
+    const FormTitleEmailSelector =  '.group.flex.flex-col.w-full';
+    const FormTitleEmail = await page.locator(FormTitleEmailSelector);
+    expect(await FormTitleEmail.isVisible()).toBe(true);
+})
+
+test('Check Subscribe Button', async ({ page }) => {
+    const SubscribeButtonSelector = 'form button';
+    const SubscribeButton = await page.locator(SubscribeButtonSelector);
+    const SubscribeButtonText = await SubscribeButton.textContent();
+    expect(SubscribeButtonText).toBe(expectedSubscribeButtonText);
+    expect(await SubscribeButton.isVisible()).toBe(true);
+})
