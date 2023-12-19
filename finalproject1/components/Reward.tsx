@@ -9,6 +9,8 @@ import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter,  useDisclosure
 
 
 export const Reward = () => {
+
+	const {isOpen, onOpen, onOpenChange} = useDisclosure();
 	
 	return (
 
