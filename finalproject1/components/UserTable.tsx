@@ -1,5 +1,5 @@
 'use client'
-import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@nextui-org/react";
+import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Link} from "@nextui-org/react";
 
 export default function UserTable() {
   return (
@@ -22,19 +22,19 @@ export default function UserTable() {
           <TableCell className="font-column">Beverages</TableCell>
           <TableCell className="font-column">Events</TableCell>
           <TableCell className="font-column">Instagram</TableCell>
-          <TableCell className="font-column">Mission Statement</TableCell>
+          <TableCell className="font-column"><Link href="/aboutUs" color="foreground">Mission Statement</Link></TableCell>
         </TableRow>
         <TableRow key="3">
           <TableCell className="font-column">Bulk Brew</TableCell>
           <TableCell className="font-column">Active Partnerships</TableCell>
           <TableCell className="font-column">Facebook</TableCell>
-          <TableCell className="font-column">Corporate Values</TableCell>
+          <TableCell className="font-column"><Link href="/aboutUs" color="foreground">Corporate Values</Link></TableCell>
         </TableRow>
         <TableRow key="4">
           <TableCell className="font-column">Merchandise</TableCell>
           <TableCell className="font-column">Outreach Programs</TableCell>
           <TableCell className="font-column">YouTube</TableCell>
-          <TableCell className="font-column">Sourcing Commitments</TableCell>
+          <TableCell className="font-column"><Link href="/aboutUs" color="foreground">Sourcing Commitments</Link></TableCell>
         </TableRow>
         <TableRow key="5">
           <TableCell className="font-column">Gift Cards</TableCell>

@@ -56,8 +56,9 @@ export default function RootLayout({
 							<NewsLetter />
 						</footer>
 					</div>
+					<CookieBanner/>
 				</Providers>
-				<CookieBanner/>
+				
 			</body>
 		</html>
 	);
