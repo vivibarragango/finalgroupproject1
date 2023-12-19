@@ -11,6 +11,11 @@
     font-family: 'Crimson Text';
 }
 
+.modalBodyScroll {
+  max-height: 400px; /* Ajusta la altura máxima según tus necesidades */
+  overflow-y: auto;
+}
+
 /* styles/global.css */
 
 .hero {
