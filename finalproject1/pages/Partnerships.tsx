@@ -10,7 +10,7 @@ const Partnerships = () => {
       <Card>
         <h3>1. Green Earth Café</h3>
         <p><strong>Contact:</strong> <a href="mailto:j.smith@greenearthcafe.com">j.smith@greenearthcafe.com</a></p>
-        <p><strong>Partnership Details:</strong> Collaborating on eco-friendly coffee sourcing and promoting sustainable farming practices. Together, we're working towards a greener coffee future.</p>
+        <p><strong>Partnership Details:</strong> Collaborating on eco-friendly coffee sourcing and promoting sustainable farming practices. Together, we&apos;re working towards a greener coffee future.</p>
       </Card>
       <Spacer y={1} />
 
@@ -31,7 +31,7 @@ const Partnerships = () => {
       <Card>
         <h3>4. TechBeans</h3>
         <p><strong>Contact:</strong> <a href="mailto:s.davis@techbeans.com">s.davis@techbeans.com</a></p>
-        <p><strong>Partnership Details:</strong> Integrating innovative technology in coffee brewing and serving, bringing modern solutions to enhance our customer's coffee experience.</p>
+        <p><strong>Partnership Details:</strong> Integrating innovative technology in coffee brewing and serving, bringing modern solutions to enhance our customer&apos;s coffee experience.</p>
       </Card>
       <Spacer y={1} />
 
