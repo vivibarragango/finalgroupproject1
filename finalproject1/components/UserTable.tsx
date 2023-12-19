@@ -39,7 +39,7 @@ export default function UserTable() {
         <TableRow key="5">
           <TableCell className="font-column">Gift Cards</TableCell>
           <TableCell>-</TableCell>
-          <TableCell className="font-column">Twitter</TableCell>
+          <TableCell className="font-column"><Link isExternal href="https://www.twitter.com" color="foreground">Twitter</Link></TableCell>
           <TableCell>-</TableCell>
         </TableRow>
       </TableBody>
