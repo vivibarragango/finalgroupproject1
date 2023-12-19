@@ -19,19 +19,19 @@ export default function UserTable() {
           <TableCell className="font-head">ABOUT US</TableCell>
         </TableRow>
         <TableRow key="2">
-          <TableCell className="font-column">Beverages</TableCell>
+          <TableCell className="font-column"><Link href="/beverages" color="foreground">Beverages</Link></TableCell>
           <TableCell className="font-column"><Link href="/CommunityEvents" color="foreground">Events</Link></TableCell>
           <TableCell className="font-column"><Link isExternal href="https://www.instagram.com" color="foreground">Instagram</Link></TableCell>
           <TableCell className="font-column"><Link href="/aboutUs" color="foreground">Mission Statement</Link></TableCell>
         </TableRow>
         <TableRow key="3">
-          <TableCell className="font-column">Bulk Brew</TableCell>
+          <TableCell className="font-column"><Link href="/BulkBrew" color="foreground">Bulk Brew</Link></TableCell>
           <TableCell className="font-column"><Link href="/Partnerships" color="foreground">Active Partnerships</Link></TableCell>
           <TableCell className="font-column"><Link isExternal href="https://www.facebook.com" color="foreground">Facebook</Link></TableCell>
           <TableCell className="font-column"><Link href="/aboutUs" color="foreground">Corporate Values</Link></TableCell>
         </TableRow>
         <TableRow key="4">
-          <TableCell className="font-column">Merchandise</TableCell>
+          <TableCell className="font-column"><Link href="/Merchandise" color="foreground">Merchandise</Link></TableCell>
           <TableCell className="font-column"><Link href="/OutreachPrograms" color="foreground">Outreach Programs</Link></TableCell>
           <TableCell className="font-column"><Link isExternal href="https://www.youtube.com" color="foreground">YouTube</Link></TableCell>
           <TableCell className="font-column"><Link href="/aboutUs" color="foreground">Sourcing Commitments</Link></TableCell>
