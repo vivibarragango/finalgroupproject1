@@ -20,7 +20,7 @@ export default function UserTable() {
         </TableRow>
         <TableRow key="2">
           <TableCell className="font-column">Beverages</TableCell>
-          <TableCell className="font-column">Events</TableCell>
+          <TableCell className="font-column"><Link href="/CommunityEvents" color="foreground">Events</Link></TableCell>
           <TableCell className="font-column">Instagram</TableCell>
           <TableCell className="font-column"><Link href="/aboutUs" color="foreground">Mission Statement</Link></TableCell>
         </TableRow>
