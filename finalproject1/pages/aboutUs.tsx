@@ -17,7 +17,7 @@ const aboutUs = () => {
         <h2>Corporate Values</h2>
         <h3>The Essence of Home-Brewed Tradition</h3>
         <p>
-          Cafe Casero ViBi is more than just a coffee company; it's a story of culture, tradition, and familial warmth. Co-founders Viviana and Bianco grew up in Hispanic households where coffee wasn't just a beverage; it was a ritual that brought families together and symbolized hospitality. This deep-rooted love for home-brewed coffee, passed down through generations, is the foundation of our corporate values.
+          Cafe Casero ViBi is more than just a coffee company; it&apos;s a story of culture, tradition, and familial warmth. Co-founders Viviana and Bianco grew up in Hispanic households where coffee wasn&apos;t just a beverage; it was a ritual that brought families together and symbolized hospitality. This deep-rooted love for home-brewed coffee, passed down through generations, is the foundation of our corporate values.
         </p>
 
         <h3>Sharing Our Warmth with the World</h3>
@@ -42,7 +42,7 @@ const aboutUs = () => {
           <li><strong>Quality and Transparency:</strong> Selecting the finest beans while maintaining transparency about their origins, ensuring that our customers know the story behind every cup.</li>
         </ul>
         <p>
-          We're dedicated to making a positive impact – not just in the communities we serve directly, but also in the communities that grow our coffee. It's our promise to uphold these values and commitments as we continue to grow and serve.
+          We&apos;re dedicated to making a positive impact – not just in the communities we serve directly, but also in the communities that grow our coffee. It&apos;s our promise to uphold these values and commitments as we continue to grow and serve.
         </p>
       </section>
       <Link href="/" color="primary">Return to the main page</Link>
