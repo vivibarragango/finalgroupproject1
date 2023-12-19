@@ -59,6 +59,28 @@ export const Reward = () => {
 				</Button>				
 			</div>
 
+			<Modal 
+        isOpen={isOpen} 
+        onOpenChange={onOpenChange}
+        placement="top-center"
+      >
+        <ModalContent>
+          {(onClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">Log in</ModalHeader>
+              <ModalBody>
+				<NewsLetter />
+              </ModalBody> 
+              <ModalFooter>
+                <Button color="danger" variant="flat" onPress={onClose}>
+                  Close
+                </Button>
+            </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
+
 		</section>
 		</>
 	);
