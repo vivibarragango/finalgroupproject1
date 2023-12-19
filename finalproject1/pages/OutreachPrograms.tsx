@@ -8,7 +8,7 @@ const OutreachPrograms = () => {
 
       <div className="my-4">
         <h2 className="text-xl font-semibold">1. City Youth Empowerment</h2>
-        <p className="font-medium">Activity Title: "Young Leaders Initiative"</p>
+        <p className="font-medium">Activity Title: &quot;Young Leaders Initiative&quot;</p>
         <p>Contact: <a href="mailto:a.thompson@cityyouth.org" className="text-blue-600">a.thompson@cityyouth.org</a></p>
         <p>Partnership Duration: Partnered since January 2020</p>
         <p>
@@ -18,7 +18,7 @@ const OutreachPrograms = () => {
 
       <div className="my-4">
         <h2 className="text-xl font-semibold">2. Green Spaces Alliance</h2>
-        <p className="font-medium">Activity Title: "Urban Greening Movement"</p>
+        <p className="font-medium">Activity Title: &quot;Urban Greening Movement&quot;</p>
         <p>Contact: <a href="mailto:c.rodriguez@greenspacesalliance.org" className="text-blue-600">c.rodriguez@greenspacesalliance.org</a></p>
         <p>Partnership Duration: Partnered since June 2018</p>
         <p>
@@ -28,7 +28,7 @@ const OutreachPrograms = () => {
 
       <div className="my-4">
         <h2 className="text-xl font-semibold">3. Health for All</h2>
-        <p className="font-medium">Activity Title: "Community Health Outreach"</p>
+        <p className="font-medium">Activity Title: &quot;Community Health Outreach&quot;</p>
         <p>Contact: <a href="mailto:b.kim@healthforall.org" className="text-blue-600">b.kim@healthforall.org</a></p>
         <p>Partnership Duration: Partnered since October 2019</p>
         <p>
