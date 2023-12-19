@@ -20,7 +20,7 @@ const BulkBrew = () => {
       <section className="mb-4 text-white">
         <h2 className="text-xl font-semibold">Orders and Pricing</h2>
         <p>
-          You can place your bulk coffee orders directly through our website or by contacting us via phone or email. We offer competitive pricing and discounts on large orders.
+          You can place your bulk coffee orders directly by contacting us via phone or email. We offer competitive pricing and discounts on large orders.
         </p>
       </section>
 
