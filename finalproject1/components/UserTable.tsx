@@ -27,7 +27,7 @@ export default function UserTable() {
         <TableRow key="3">
           <TableCell className="font-column">Bulk Brew</TableCell>
           <TableCell className="font-column"><Link href="/Partnerships" color="foreground">Active Partnerships</Link></TableCell>
-          <TableCell className="font-column">Facebook</TableCell>
+          <TableCell className="font-column"><Link isExternal href="https://www.facebook.com" color="foreground">Facebook</Link></TableCell>
           <TableCell className="font-column"><Link href="/aboutUs" color="foreground">Corporate Values</Link></TableCell>
         </TableRow>
         <TableRow key="4">
