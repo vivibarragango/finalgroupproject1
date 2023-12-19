@@ -3,6 +3,9 @@ import { Button } from '@nextui-org/react';
 import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun } from '@fortawesome/free-solid-svg-icons';
+import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter,  useDisclosure, Checkbox, Input, Link} from "@nextui-org/react";
+
+  import NewsLetter from "@/components/NewsLetter";
 
 
 export const Reward = () => {
