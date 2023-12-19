@@ -1,5 +1,5 @@
 'use client'
-import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell} from "@nextui-org/react";
+import {Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Link} from "@nextui-org/react";
 
 export default function UserTable() {
   return (
@@ -16,7 +16,7 @@ export default function UserTable() {
           <TableCell className="font-head">MENU</TableCell>
           <TableCell className="font-head">COMMUNITY</TableCell>
           <TableCell className="font-head">SOCIALS</TableCell>
-          <TableCell className="font-head">ABOUT US</TableCell>
+          <TableCell className="font-head"><Link href="/aboutUs" color="foreground">ABOUT US</Link></TableCell>
         </TableRow>
         <TableRow key="2">
           <TableCell className="font-column">Beverages</TableCell>

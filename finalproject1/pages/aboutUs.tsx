@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from '@nextui-org/react';
 
-const MissionValues = () => {
+const aboutUs = () => {
   return (
     <div className="container flex flex-col items-center justify-center p-20">
       <h1>Our Mission, Values, and Commitment</h1>
@@ -44,8 +45,10 @@ const MissionValues = () => {
           We're dedicated to making a positive impact – not just in the communities we serve directly, but also in the communities that grow our coffee. It's our promise to uphold these values and commitments as we continue to grow and serve.
         </p>
       </section>
+      <Link href="/" color="primary">Return to the main page</Link>
     </div>
+    
   );
 };
 
-export default MissionValues;
+export default aboutUs;
