@@ -6,6 +6,7 @@ import {
   faMugHot, faCoffee, faCocktail, faLeaf, 
   faWineBottle, faGlassWhiskey, faBlender, faIceCream
 } from '@fortawesome/free-solid-svg-icons';
+import {Link} from "@nextui-org/react";
 
 const MenuPage = () => {
   const menuItems = [
@@ -44,6 +45,7 @@ const MenuPage = () => {
           </Card>
         ))}
       </div>
+      <Link href="/" color="primary">Return to the main page</Link>
     </div>
   );
 };
