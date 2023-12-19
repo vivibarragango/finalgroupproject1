@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from '@nextui-org/react';
 
 const OutreachPrograms = () => {
   return (
@@ -34,6 +35,7 @@ const OutreachPrograms = () => {
           Description: Health for All aims to provide essential health education and services to underprivileged communities. Our partnership, now in its fourth year, has been instrumental in organizing health camps, vaccination drives, and educational seminars. We&apos;ve reached out to thousands of individuals, offering vital health resources and awareness, significantly improving community health standards. The program’s success is a testament to the power of collaborative effort in addressing critical health issues.
         </p>
       </div>
+      <Link href="/" color="primary">Return to the main page</Link>
     </div>
   );
 };

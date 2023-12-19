@@ -32,7 +32,7 @@ export default function UserTable() {
         </TableRow>
         <TableRow key="4">
           <TableCell className="font-column">Merchandise</TableCell>
-          <TableCell className="font-column">Outreach Programs</TableCell>
+          <TableCell className="font-column"><Link href="/OutreachPrograms" color="foreground">Outreach Programs</Link></TableCell>
           <TableCell className="font-column">YouTube</TableCell>
           <TableCell className="font-column"><Link href="/aboutUs" color="foreground">Sourcing Commitments</Link></TableCell>
         </TableRow>
