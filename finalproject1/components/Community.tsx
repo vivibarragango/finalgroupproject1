@@ -1,5 +1,5 @@
 "use client";
-import { Button } from '@nextui-org/react';
+import { Button, Link } from '@nextui-org/react';
 import Image from "next/image";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun } from '@fortawesome/free-solid-svg-icons';
@@ -21,9 +21,11 @@ export const Community = () => {
                         the best coffee beans for your pleasure. Purchase a cup of coffee now and feel
                         the warmth we have imbued into every cup. Join our community today!
                     </p>
-                    <Button className="cta-button font-column">
+                    <Link href="/Partnerships">
+                    <Button className="cta-button font-column" >
                         Our Active Partnerships
                     </Button>
+                    </Link>
                 </div>
                 <div className="relative col-span-6 md:col-span-4">
 
