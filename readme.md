@@ -8,7 +8,7 @@ Link to Swot Analysis [here](/business_analysis/swotanalysis.md)
 
 Link to One Target Persona [here](/business_analysis/targetpersona.md)
 
-Link to Customer Jounrey [here](/business_analysis/customerjourney.md)
+Link to Customer Journey [here](/business_analysis/customerjourney.md)
 
 Link to User Stories [here](/business_analysis/userstories.md)
 
