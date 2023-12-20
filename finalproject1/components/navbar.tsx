@@ -57,7 +57,7 @@ export const Navbar = () => {
 			>				
 				<NavbarItem className="hidden md:flex">
 				<Link className="font-column" color="foreground" href="#" onPress={onOpen}>
-						Login
+						Sign up
 					</Link>
 					<Modal 
         isOpen={isOpen} 
@@ -67,7 +67,7 @@ export const Navbar = () => {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">Log in</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1">Sign Up</ModalHeader>
               <ModalBody>
 				<Login />
               </ModalBody> 
