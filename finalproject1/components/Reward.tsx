@@ -67,7 +67,7 @@ export const Reward = () => {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">Log in</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1">Subscribe</ModalHeader>
               <ModalBody>
 				<NewsLetter />
               </ModalBody> 
