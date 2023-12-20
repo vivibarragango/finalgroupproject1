@@ -61,7 +61,7 @@ export default function Login() {
               
               <Input ref={inputEl} type="email" label="Email" placeholder="Enter your email" value={email} onChange={(e) => setEmail(e.target.value)} />
               <Input
-                  label="Password"
+                  label="Create Password"
                   placeholder="Enter your password"
                   endContent={
                       <button className="focus:outline-none" type="button" onClick={toggleVisibility} >
@@ -78,7 +78,7 @@ export default function Login() {
           </div>      
 
       <Button type='submit' color="primary" variant="bordered">
-        Login
+        Sign up
       </Button>
       <div className="text-green-500 mt-2">{message}</div>
     </form>
